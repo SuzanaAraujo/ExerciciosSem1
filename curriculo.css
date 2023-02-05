@@ -1,0 +1,14 @@
+.foto {
+  width: 50mm;
+  border-radius: 15cm;
+  box-shadow: 5px 5px 10px rgb(70, 70, 70);
+}
+
+h1 {
+  color: rgb(137, 2, 2);
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(255, 243, 228);
+}
