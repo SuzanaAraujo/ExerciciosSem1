@@ -3,14 +3,23 @@
   padding: 5;
   box-sizing: border-box;
 }
+
+header {
+  display: flex;
+  background: #08605f;
+}
 .foto {
   width: 50mm;
+  margin: 1rem;
   border-radius: 15cm;
-  box-shadow: 5px 5px 10px rgb(70, 70, 70);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
+    0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
 
 h1 {
   color: #08605f;
+  font-size: 30px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 body {
@@ -19,16 +28,37 @@ body {
 }
 
 .nome {
+  padding: 1rem;
+  align-self: center;
   font-size: 50px;
-  color: #08605f;
+  color: #ffffff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-ul {
-  width: 200px;
-  height: 200px;
-  border: 20px;
-  border-radius: 10px;
-  margin-left: 5px;
-  display: block;
-  background-color: #ffffff;
+main {
+  display: flex;
+}
+
+nav {
+  background: #08605f;
+  padding: 1rem 2rem;
+  font-size: 20px;
+}
+li {
+  padding: 2mm;
+}
+section {
+  margin: 1rem;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+  font-size: 120%;
 }
